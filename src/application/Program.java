@@ -13,7 +13,7 @@ public class Program {
 		// TODO Auto-generated method stub
 
 		SellerDao sellerDao = DaoFactory.createSellerDao();
-		
+		System.out.println("=== TEST 1");
 		Seller seller = sellerDao.findById(3);
 		
 		System.out.println(seller);
